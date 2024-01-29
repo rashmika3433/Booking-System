@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(session({
-  secret: 'your-secret-key',
+  secret: '12345',
   resave: false,
   saveUninitialized: false
 }));
